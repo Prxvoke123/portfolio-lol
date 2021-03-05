@@ -1,0 +1,78 @@
+h1 {
+    color: #a52a2a;
+    border:dashed #000000;
+    margin-left: 23px;
+    padding: 24px;
+}
+
+.cool{
+background-color: #f0ffff;
+display:flex;
+justify-content: space-between;
+}
+
+.square{
+display:flex;
+justify-content:space-evenly ;
+flex-wrap:wrap
+
+
+}
+
+.circle{
+display:flex;
+justify-content:flex-end ;
+
+}
+
+p,h2{
+text-align: center;
+
+}
+
+h2{
+text-decoration:underline ;
+letter-spacing:3px
+}
+
+p{
+opacity:1
+
+}
+.triangle a{
+margin:18px
+
+}
+a:link{
+color:#ff00ff
+
+}
+a:visited{
+color:orange
+
+}
+
+.child{
+position: relative;
+
+}
+
+.child p{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    color:red;
+    opacity:0 ;
+
+}
+
+.child:hover p{
+opacity:1
+
+}
+
+.child:hover img{
+    transform:scale(1.3) ;
+}
